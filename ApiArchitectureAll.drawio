@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T21:48:08.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YM80LbfeIumPtxUDtuIQ" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T21:55:06.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vIvpHyifmzDmV9ClNjlj" version="21.2.3" type="github">
   <diagram name="Página-1" id="oroSco3110j-UN6hGCNr">
-    <mxGraphModel dx="1026" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,6 +80,12 @@
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-40" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#CCCCCC;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;strokeColor=#6881B3;fontColor=#0066CC;gradientColor=none;gradientDirection=north;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="470" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qaMLXtn1jEf3AD-3eZb_-1" value="Developer" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-70" width="80" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="qaMLXtn1jEf3AD-3eZb_-2" value="Administrator" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/49handdrawing/128x128/user-admin.png" vertex="1" parent="1">
+          <mxGeometry x="62" y="-360" width="98" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
