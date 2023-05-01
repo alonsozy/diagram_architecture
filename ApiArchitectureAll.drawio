@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T22:26:49.468Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oPrXCAvkM5b89L1ShIda" version="21.2.3" type="github">
-  <diagram name="Página-1" id="oroSco3110j-UN6hGCNr">
-    <mxGraphModel dx="1026" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-05-01T23:44:16.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ETwBllFqDxkSpgZopFCz" version="21.2.3" type="github">
+  <diagram name="ArchitectureV1" id="oroSco3110j-UN6hGCNr">
+    <mxGraphModel dx="1710" dy="2602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,8 @@
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="-160" width="220" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="hXSa_8uIZ4iLDt3UTee9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0xplG7eCiTCj73ZMytgB-2" target="hXSa_8uIZ4iLDt3UTee9-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0xplG7eCiTCj73ZMytgB-2" value="Rest Api User" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/API_Management.svg;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="638" width="50" height="42" as="geometry" />
+          <mxGeometry x="610" y="-141" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="0xplG7eCiTCj73ZMytgB-3" value="Api Developer Portal" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/api_developer_portal.svg;" parent="1" vertex="1">
           <mxGeometry x="380" y="-329" width="60" height="60" as="geometry" />
@@ -35,7 +32,7 @@
           <mxGeometry x="300" y="-500" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0xplG7eCiTCj73ZMytgB-13" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Puntos a considerar&lt;/h1&gt;&lt;div&gt;Usar Kong&lt;/div&gt;&lt;div&gt;Usar Keycloak&lt;/div&gt;&lt;div&gt;Deploy en AWS&lt;/div&gt;&lt;div&gt;Usar Solid&lt;/div&gt;&lt;div&gt;Patrones de diseño&lt;/div&gt;&lt;div&gt;Test unitarios e integracion&lt;/div&gt;&lt;div&gt;Mountebank&lt;/div&gt;&lt;div&gt;Crear api con webflux y spring mvc&lt;/div&gt;&lt;div&gt;Clase de manejo de excepciones&lt;/div&gt;&lt;div&gt;manejo de memoria cache redis&lt;/div&gt;&lt;div&gt;uso de cassandra&lt;/div&gt;&lt;div&gt;versionamiento de un api&lt;/div&gt;&lt;div&gt;monitoreo del servicio rest con grafana&lt;/div&gt;&lt;div&gt;tratar de implementar ELK&lt;/div&gt;&lt;div&gt;uso de spring security&lt;/div&gt;&lt;div&gt;Pruebas de estres :Jmeter&lt;/div&gt;&lt;div&gt;Kafka&lt;/div&gt;&lt;div&gt;Esb&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-70" width="210" height="270" as="geometry" />
+          <mxGeometry x="940" y="-630" width="210" height="270" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXSa_8uIZ4iLDt3UTee9-3" target="hXSa_8uIZ4iLDt3UTee9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -47,7 +44,7 @@
           <mxGeometry x="1110" y="774.8" width="50" height="52.4" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="638" width="38" height="50" as="geometry" />
+          <mxGeometry x="710" y="-145" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-8" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Spring WebFlux&lt;/div&gt;&lt;div&gt;Spring Security Reactive&lt;/div&gt;&lt;div&gt;MongoDb&lt;/div&gt;&lt;div&gt;Functional Endpints&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
           <mxGeometry x="960" y="880" width="240" height="220" as="geometry" />
@@ -61,10 +58,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-16" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="838" width="85.71" height="72" as="geometry" />
+          <mxGeometry x="992.15" y="-60" width="85.71" height="72" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-21" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
-          <mxGeometry x="80" y="-140" width="100" height="70" as="geometry" />
+          <mxGeometry x="77.5" y="-130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-22" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;" parent="1" vertex="1">
           <mxGeometry x="80" y="-30" width="95" height="55" as="geometry" />
@@ -106,6 +103,12 @@
         </mxCell>
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-16" value="Api Consumers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="75" y="-190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaMLXtn1jEf3AD-3eZb_-18" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.03;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0xplG7eCiTCj73ZMytgB-2" target="hXSa_8uIZ4iLDt3UTee9-6">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="520" y="-140" as="sourcePoint" />
+            <mxPoint x="580" y="-200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
