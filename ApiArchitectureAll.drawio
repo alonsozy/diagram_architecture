@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T04:24:13.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="M7zSh27LYjcBnqKYlQmw" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T04:33:15.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="b3_EZl7KSfyfS__LjrSx" version="21.2.3" type="github">
   <diagram name="ArchitectureV1" id="oroSco3110j-UN6hGCNr">
-    <mxGraphModel dx="1466" dy="2458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2565" dy="3062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,10 +29,7 @@
           <mxGeometry x="1370" y="620" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xplG7eCiTCj73ZMytgB-6" value="Api Proxy" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/API_Proxy.svg;" parent="1" vertex="1">
-          <mxGeometry x="850" y="980" width="68" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="0xplG7eCiTCj73ZMytgB-8" value="Api Gateway" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;direction=west;" parent="1" vertex="1">
-          <mxGeometry x="380" y="367" width="78" height="78" as="geometry" />
+          <mxGeometry x="1050" y="550" width="68" height="38" as="geometry" />
         </mxCell>
         <mxCell id="0xplG7eCiTCj73ZMytgB-11" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Api Developer Portal&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: justify; font-size: 11px;&quot;&gt;Herramienta donde los consumidores pueden inscribirse en la API y obtener toda la información necesaria, como documentacion, foros para garantizar una integración exitosa&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 11px;&quot;&gt;Se debe tener un catalogo de APIs.&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFF99;spacing=5;spacingTop=-30;whiteSpace=wrap;overflow=hidden;rounded=1;fontSize=11;glass=1;gradientColor=none;shadow=1;sketch=1;curveFitting=1;jiggle=2;spacingLeft=5;spacingRight=5;" parent="1" vertex="1">
           <mxGeometry x="300" y="-630" width="220" height="120" as="geometry" />
@@ -44,24 +41,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-3" value="Rest Api User &lt;br&gt;WebFlux" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/API_Management.svg;" parent="1" vertex="1">
-          <mxGeometry x="678" y="-8.799999999999955" width="50" height="42" as="geometry" />
+          <mxGeometry x="680" y="-0.5999999999999552" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-4" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE" parent="1" vertex="1">
-          <mxGeometry x="778" y="-11" width="50" height="52.4" as="geometry" />
+          <mxGeometry x="778" y="-5.8" width="50" height="52.4" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" parent="1" vertex="1">
           <mxGeometry x="790" y="-180" width="38" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hXSa_8uIZ4iLDt3UTee9-8" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Spring WebFlux&lt;/div&gt;&lt;div&gt;Spring Security Reactive&lt;/div&gt;&lt;div&gt;MongoDb&lt;/div&gt;&lt;div&gt;Functional Endpints&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
-          <mxGeometry x="625" y="130.00000000000006" width="240" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="hXSa_8uIZ4iLDt3UTee9-12" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
-          <mxGeometry x="1325" y="1087" width="150" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="hXSa_8uIZ4iLDt3UTee9-13" value="Service Discovery" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.service_discovery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" parent="hXSa_8uIZ4iLDt3UTee9-12" vertex="1">
-          <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
-            <mxPoint x="5" y="-16" as="offset" />
-          </mxGeometry>
+        <mxCell id="hXSa_8uIZ4iLDt3UTee9-8" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-size: 21px;&quot;&gt;AW - Tecnologías&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;Spring WebFlux&lt;/div&gt;&lt;div&gt;Spring Security Reactive&lt;/div&gt;&lt;div&gt;MongoDb&lt;/div&gt;&lt;div&gt;Functional Endpints&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="310" y="717" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="hXSa_8uIZ4iLDt3UTee9-16" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-90" width="85.71" height="72" as="geometry" />
@@ -98,7 +87,7 @@
             <mxPoint x="430" y="-510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qaMLXtn1jEf3AD-3eZb_-11" value="Api Gateway" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/gateway.svg;" parent="1" vertex="1">
+        <mxCell id="qaMLXtn1jEf3AD-3eZb_-11" value="Api Gateway (AG)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/gateway.svg;" parent="1" vertex="1">
           <mxGeometry x="380" y="-150" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-12" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qaMLXtn1jEf3AD-3eZb_-11" target="0xplG7eCiTCj73ZMytgB-3" edge="1">
@@ -114,13 +103,6 @@
           <mxGeometry width="60" height="60" relative="1" as="geometry">
             <mxPoint x="632" y="-119" as="sourcePoint" />
             <mxPoint x="790" y="-145" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qaMLXtn1jEf3AD-3eZb_-28" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qaMLXtn1jEf3AD-3eZb_-27" target="hXSa_8uIZ4iLDt3UTee9-8" edge="1">
-          <mxGeometry width="60" height="60" relative="1" as="geometry">
-            <mxPoint x="650" y="90" as="sourcePoint" />
-            <mxPoint x="871" y="-76" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -146,11 +128,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qaMLXtn1jEf3AD-3eZb_-36" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;Spring AOP - Anotaciones Personal.&lt;/div&gt;&lt;div&gt;Spring Boot Actuator&lt;/div&gt;&lt;div&gt;Enums&lt;/div&gt;&lt;div&gt;Manejo de Logs con Spring AOP&lt;/div&gt;&lt;div&gt;Crear su dockerFile&lt;/div&gt;&lt;div&gt;Usar DockerCompose&lt;/div&gt;&lt;div&gt;Revision con SonarQube&lt;/div&gt;&lt;div&gt;Uso de Jacoco&lt;/div&gt;&lt;div&gt;Subir a AWS&lt;/div&gt;&lt;div&gt;Newman&lt;/div&gt;&lt;div&gt;Jenkins&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;Redis - cache distribuido&lt;/div&gt;&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;ELK&lt;/div&gt;&lt;div&gt;Code Documentation / JavaDocs&lt;/div&gt;&lt;div&gt;Spring Security&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración (&lt;/div&gt;JUnit y mockito&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="-670" width="240" height="470" as="geometry" />
+        <mxCell id="qaMLXtn1jEf3AD-3eZb_-36" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-size: 21px;&quot;&gt;AM - Tecnologías&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;Spring AOP - Anotaciones Personal.&lt;/div&gt;&lt;div&gt;Spring Boot Actuator&lt;/div&gt;&lt;div&gt;Enums&lt;/div&gt;&lt;div&gt;Manejo de Logs con Spring AOP&lt;/div&gt;&lt;div&gt;Crear su dockerFile&lt;/div&gt;&lt;div&gt;Usar DockerCompose&lt;/div&gt;&lt;div&gt;Revision con SonarQube&lt;/div&gt;&lt;div&gt;Uso de Jacoco&lt;/div&gt;&lt;div&gt;Subir a AWS&lt;/div&gt;&lt;div&gt;Newman&lt;/div&gt;&lt;div&gt;Jenkins&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;Redis - cache distribuido&lt;/div&gt;&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;ELK&lt;/div&gt;&lt;div&gt;Code Documentation / JavaDocs&lt;/div&gt;&lt;div&gt;Spring Security&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración (&lt;/div&gt;JUnit y mockito&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="585" y="717" width="240" height="470" as="geometry" />
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="690" y="-330" width="150" height="44" as="geometry" />
+          <mxGeometry x="698" y="-330" width="150" height="44" as="geometry" />
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-2" value="Service Discovery&lt;br&gt;Consul / Eureka" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.service_discovery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="kiC5Gqh52XwYXG_FM10k-1">
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
@@ -169,24 +151,20 @@
             <mxPoint x="730" y="-328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-6" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Consul&lt;/div&gt;&lt;div&gt;Spring Cloud Netflix Zuul (Deprecated)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Buscar otras tecnologias para Service Discovery o Service Registry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="690" y="-500" width="240" height="130" as="geometry" />
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-6" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&amp;nbsp; &amp;nbsp; SD - Tecnologías&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Consul&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Spring Cloud Netflix Zuul (Deprecated)&lt;br&gt;&lt;/div&gt;&lt;div&gt;Buscar otras tecnologias para Service Discovery o Service Registry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="848" y="720" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-7" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.353;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kiC5Gqh52XwYXG_FM10k-1" target="kiC5Gqh52XwYXG_FM10k-6">
-          <mxGeometry width="60" height="60" relative="1" as="geometry">
-            <mxPoint x="420" y="-140" as="sourcePoint" />
-            <mxPoint x="420" y="-380" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-9" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font style=&quot;font-size: 21px;&quot;&gt;AG - Tecnologías&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;Spring Cloud Gateway&lt;/div&gt;&lt;div&gt;Spring Zuul (Deprecated)&lt;/div&gt;&lt;div&gt;Averiguar que otras tecnologias hay para crear este componente.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-8" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.002;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-25" target="qaMLXtn1jEf3AD-3eZb_-36">
-          <mxGeometry width="60" height="60" relative="1" as="geometry">
-            <mxPoint x="736" y="-133" as="sourcePoint" />
-            <mxPoint x="1061" y="-46" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-10" value="AW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="635" y="-30" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-9" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Spring Cloud Gateway&lt;/div&gt;&lt;div&gt;Spring Zuul (Deprecated)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="240" height="130" as="geometry" />
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-11" value="AM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="648" y="-210" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-12" value="SD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="685" y="-350" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
