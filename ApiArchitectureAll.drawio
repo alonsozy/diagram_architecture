@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T04:21:11.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="62P5kqSGzP-5uVT0bMSl" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T04:22:39.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jMq3ldpfKB7k2261pquC" version="21.2.3" type="github">
   <diagram name="ArchitectureV1" id="oroSco3110j-UN6hGCNr">
     <mxGraphModel dx="1466" dy="2458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -147,10 +147,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-36" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Spring Boot&lt;/div&gt;&lt;div&gt;Spring AOP - Anotaciones Personal.&lt;/div&gt;&lt;div&gt;Spring Boot Actuator&lt;/div&gt;&lt;div&gt;Enums&lt;/div&gt;&lt;div&gt;Manejo de Logs con Spring AOP&lt;/div&gt;&lt;div&gt;Crear su dockerFile&lt;/div&gt;&lt;div&gt;Usar DockerCompose&lt;/div&gt;&lt;div&gt;Revision con SonarQube&lt;/div&gt;&lt;div&gt;Uso de Jacoco&lt;/div&gt;&lt;div&gt;Subir a AWS&lt;/div&gt;&lt;div&gt;Newman&lt;/div&gt;&lt;div&gt;Jenkins&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;Redis - cache distribuido&lt;/div&gt;&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;ELK&lt;/div&gt;&lt;div&gt;Code Documentation / JavaDocs&lt;/div&gt;&lt;div&gt;Spring Security&lt;/div&gt;&lt;div&gt;Uso de Genéricos&amp;nbsp;&lt;/div&gt;&lt;div&gt;Manejo de excepciones y validaciones&lt;/div&gt;&lt;div&gt;Swagger&lt;/div&gt;&lt;div&gt;JasperReports*&lt;/div&gt;&lt;div&gt;Cloudinary&amp;nbsp;&lt;/div&gt;&lt;div&gt;Paginación&lt;/div&gt;&lt;div&gt;Pruebas unitarias e integración (&lt;/div&gt;JUnit y mockito&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="-590" width="240" height="580" as="geometry" />
+          <mxGeometry x="1020" y="-780" width="240" height="580" as="geometry" />
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="678" y="-350" width="150" height="44" as="geometry" />
+          <mxGeometry x="690" y="-330" width="150" height="44" as="geometry" />
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-2" value="Service Discovery&lt;br&gt;Consul / Eureka" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.service_discovery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="kiC5Gqh52XwYXG_FM10k-1">
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
@@ -170,7 +170,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-6" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Consul&lt;/div&gt;&lt;div&gt;Spring Cloud Netflix Zuul&lt;br&gt;&lt;/div&gt;&lt;div&gt;Buscar otras tecnologias para Service Discovery o Service Registry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" vertex="1" parent="1">
-          <mxGeometry x="710" y="-500" width="240" height="130" as="geometry" />
+          <mxGeometry x="690" y="-500" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-7" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.353;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kiC5Gqh52XwYXG_FM10k-1" target="kiC5Gqh52XwYXG_FM10k-6">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="420" y="-140" as="sourcePoint" />
+            <mxPoint x="420" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-8" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.002;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-25" target="qaMLXtn1jEf3AD-3eZb_-36">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="736" y="-133" as="sourcePoint" />
+            <mxPoint x="1061" y="-46" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
