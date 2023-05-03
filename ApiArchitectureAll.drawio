@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T04:10:01.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="uRsVsavvsUhbN_mp7lxd" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T04:21:11.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="62P5kqSGzP-5uVT0bMSl" version="21.2.3" type="github">
   <diagram name="ArchitectureV1" id="oroSco3110j-UN6hGCNr">
-    <mxGraphModel dx="1026" dy="2217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="2458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="640" y="-205" width="210" height="120" as="geometry" />
+          <mxGeometry x="648" y="-210" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qaMLXtn1jEf3AD-3eZb_-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="-30" width="210" height="110" as="geometry" />
@@ -150,24 +150,27 @@
           <mxGeometry x="1090" y="-590" width="240" height="580" as="geometry" />
         </mxCell>
         <mxCell id="kiC5Gqh52XwYXG_FM10k-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-360" width="150" height="44" as="geometry" />
+          <mxGeometry x="678" y="-350" width="150" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-2" value="Service Discovery" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.service_discovery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="kiC5Gqh52XwYXG_FM10k-1">
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-2" value="Service Discovery&lt;br&gt;Consul / Eureka" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.service_discovery;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="kiC5Gqh52XwYXG_FM10k-1">
           <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
             <mxPoint x="5" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.967;exitY=0.133;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-11" target="kiC5Gqh52XwYXG_FM10k-1">
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.967;exitY=0.133;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-11" target="kiC5Gqh52XwYXG_FM10k-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="-110" as="sourcePoint" />
             <mxPoint x="646" y="-142" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiC5Gqh52XwYXG_FM10k-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-25" target="kiC5Gqh52XwYXG_FM10k-1">
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.571;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qaMLXtn1jEf3AD-3eZb_-25" target="kiC5Gqh52XwYXG_FM10k-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="448" y="-132" as="sourcePoint" />
+            <mxPoint x="800" y="-220" as="sourcePoint" />
             <mxPoint x="730" y="-328" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kiC5Gqh52XwYXG_FM10k-6" value="&lt;h1&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Tecnologías&lt;/h1&gt;&lt;div&gt;Consul&lt;/div&gt;&lt;div&gt;Spring Cloud Netflix Zuul&lt;br&gt;&lt;/div&gt;&lt;div&gt;Buscar otras tecnologias para Service Discovery o Service Registry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;labelBorderColor=none;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-500" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
